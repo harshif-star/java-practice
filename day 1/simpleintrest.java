@@ -1,0 +1,13 @@
+public class simpleintrest {
+    public static void main(String[] args) {
+        int principal = 10000;
+        int rate = 5;         
+        int time = 2; 
+        int simpleInterest = (principal * rate * time) / 100;
+
+        System.out.println("Simple Interest: " + simpleInterest);
+
+        
+    }
+}
+
