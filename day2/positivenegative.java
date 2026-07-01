@@ -1,16 +1,18 @@
 package day2;
 
-public class positivenegative {
-    public static void main(string[] arg){
-        int n=10;
-        if (n>0){
-            System.out.println("the num is positive");
+import java.util.Scanner;
 
-        }else if (n<0){
-            System.out.println("the num is negative");
-        }else (n=0){
-            System.out.println("the num is zero");
-        }
-    }
-    
+public class Positivenegative {
+    public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      int var2 = var1.nextInt();
+      if (var2 > 0) {
+         System.out.println("the num is positive");
+      } else if (var2 < 0) {
+         System.out.println("the num is negative");
+      } else {
+         System.out.println("the num is zero");
+      }
+
+   }
 }
